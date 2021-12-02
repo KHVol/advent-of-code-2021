@@ -1,4 +1,4 @@
-# Day 1 - Part 1
+# 1.1
 increase = 0
 with open('input.txt') as f:
   lines = f.read().splitlines()
@@ -7,7 +7,7 @@ for i in range(len(lines)):
     increase += 1
 print("Part 1 - " + str(increase))
 
-# Day 1 - Part 2
+# 1.2
 total = 0
 new_lines = []
 for j in range(len(lines) - 2):
